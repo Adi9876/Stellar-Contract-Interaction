@@ -13,7 +13,6 @@ import {
 const server = new rpc.Server("https://rpc-futurenet.stellar.org");
 const networkPassphrase = Networks.FUTURENET;
 
-// ⚠️ NEVER hardcode secrets in real code — use .env!
 const userKeypair = Keypair.fromSecret(
   "<Secret-Key>"
 );
