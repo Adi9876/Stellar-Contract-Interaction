@@ -1,0 +1,17 @@
+{
+  "name": "stellar_test_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@stellar/stellar-sdk": "14.0.0-rc.1",
+    "soroban-client": "^1.0.1"
+  }
+}
